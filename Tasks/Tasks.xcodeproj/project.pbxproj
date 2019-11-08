@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6E9F57BF2373375B00F1D21B /* LSITask.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F57BE2373375B00F1D21B /* LSITask.m */; };
+		6E9F57C3237343A100F1D21B /* LSITaskController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F57C2237343A100F1D21B /* LSITaskController.m */; };
 		BD08F328234E3AF800771883 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD08F327234E3AF800771883 /* AppDelegate.m */; };
 		BD08F32B234E3AF800771883 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD08F32A234E3AF800771883 /* SceneDelegate.m */; };
 		BD08F333234E3AF900771883 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD08F332234E3AF900771883 /* Assets.xcassets */; };
@@ -32,6 +33,8 @@
 /* Begin PBXFileReference section */
 		6E9F57BD2373375B00F1D21B /* LSITask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSITask.h; sourceTree = "<group>"; };
 		6E9F57BE2373375B00F1D21B /* LSITask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSITask.m; sourceTree = "<group>"; };
+		6E9F57C1237343A100F1D21B /* LSITaskController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSITaskController.h; sourceTree = "<group>"; };
+		6E9F57C2237343A100F1D21B /* LSITaskController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSITaskController.m; sourceTree = "<group>"; };
 		BD08F323234E3AF800771883 /* Tasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD08F326234E3AF800771883 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BD08F327234E3AF800771883 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +81,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		6E9F57C4237343A500F1D21B /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6E9F57C1237343A100F1D21B /* LSITaskController.h */,
+				6E9F57C2237343A100F1D21B /* LSITaskController.m */,
+			);
+			path = "Model Controller";
+			sourceTree = "<group>";
+		};
 		BD08F31A234E3AF800771883 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +116,7 @@
 				BD08F329234E3AF800771883 /* SceneDelegate.h */,
 				BD08F32A234E3AF800771883 /* SceneDelegate.m */,
 				6E9F57C02373380200F1D21B /* Model */,
+				6E9F57C4237343A500F1D21B /* Model Controller */,
 				BD21D029234E40E200E45282 /* Task Table View */,
 				BD21D028234E3F8D00E45282 /* Task Detail */,
 				BD08F353234E3B3900771883 /* Main.storyboard */,
@@ -242,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E9F57C3237343A100F1D21B /* LSITaskController.m in Sources */,
 				BD08F328234E3AF800771883 /* AppDelegate.m in Sources */,
 				BD08F352234E3B3000771883 /* LSITasksTableViewController.m in Sources */,
 				BD08F351234E3B3000771883 /* LSITaskDetailViewController.m in Sources */,
